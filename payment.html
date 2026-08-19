@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rexona Hotel & Suite | Payment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/styles.css"><link rel="stylesheet" href="/src/css/booking.css"><link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+<body data-page="payment">
+<header id="site-header"></header>
+<main>
+  <section class="page-banner"><div class="container"><p class="eyebrow">SECURE CHECKOUT</p><h1>Payment</h1><p>Complete the prototype payment flow for your reservation.</p></div></section>
+  <section class="container section payment-layout">
+    <div id="payment-summary" class="summary-card"></div>
+    <form id="payment-form" class="form-card">
+      <h2>Payment Details</h2>
+      <div class="notice"><strong>Prototype mode:</strong> No card details are stored. Replace this workflow with your payment provider's secure checkout for production.</div>
+      <label>Payment Method<select id="payment-method" required><option value="demo">Demo Payment</option><option value="paystack">Paystack (configuration required)</option></select></label>
+      <label>Cardholder Name<input id="cardholder-name" type="text" required></label>
+      <label>Demo Transaction Reference<input id="transaction-reference" type="text" value="DEMO-AUTO" readonly></label>
+      <p id="payment-error" class="form-error" role="alert"></p>
+      <button class="btn btn-primary" type="submit">Confirm Payment</button>
+    </form>
+  </section>
+</main>
+<footer id="site-footer"></footer>
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

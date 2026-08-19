@@ -1,0 +1,14 @@
+{
+  "hotel": {
+    "id": "RH001",
+    "name": "Rexona Hotel & Suite",
+    "address": "15 Rexona Avenue, Uyo, Akwa Ibom, Nigeria",
+    "phone": "+234 800 000 0000",
+    "email": "reservations@rexonahotel.example",
+    "checkIn": "2:00 PM",
+    "checkOut": "12:00 PM",
+    "latitude": 5.0377,
+    "longitude": 7.9128,
+    "facilities": ["Free Wi-Fi", "Restaurant", "24/7 Front Desk", "Room Service", "Parking", "Air Conditioning"]
+  }
+}

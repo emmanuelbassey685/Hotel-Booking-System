@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rexona Hotel & Suite - luxury hotel booking system">
+  <title>Rexona Hotel & Suite | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/styles.css">
+  <link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+  <main>
+    <section class="hero">
+      <div class="hero-content container">
+        <p class="eyebrow">WELCOME TO REXONA</p>
+        <h1>Luxury, comfort and unforgettable stays.</h1>
+        <p>Experience elegant rooms, thoughtful hospitality and convenient booking at Rexona Hotel & Suite.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="rooms.html">Book a Room</a>
+          <a class="btn btn-outline" href="rooms.html">View Rooms</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-section container">
+      <div class="section-heading">
+        <p class="eyebrow">PLAN YOUR STAY</p>
+        <h2>Find the perfect room</h2>
+      </div>
+      <form id="home-search" class="search-form">
+        <label>Check-in <input id="home-checkin" type="date" required></label>
+        <label>Check-out <input id="home-checkout" type="date" required></label>
+        <label>Guests <input id="home-guests" type="number" min="1" max="8" value="2" required></label>
+        <label>Room Type
+          <select id="home-room-type">
+            <option value="all">Any room</option>
+            <option value="Standard">Standard</option>
+            <option value="Deluxe">Deluxe</option>
+            <option value="Executive">Executive</option>
+            <option value="Suite">Suite</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">Search Rooms</button>
+      </form>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">STAY IN STYLE</p>
+          <h2>Featured Rooms</h2>
+        </div>
+        <a href="rooms.html" class="text-link">View all rooms →</a>
+      </div>
+      <div id="featured-rooms" class="room-grid"></div>
+    </section>
+
+    <section class="facilities section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">WHY REXONA</p>
+          <h2>Everything you need for a relaxing stay</h2>
+        </div>
+        <div class="facility-grid">
+          <article><span>◉</span><h3>Free Wi-Fi</h3><p>Stay connected throughout your visit.</p></article>
+          <article><span>◆</span><h3>Fine Dining</h3><p>Enjoy convenient dining and refreshments.</p></article>
+          <article><span>✦</span><h3>24/7 Service</h3><p>Our team is available whenever you need assistance.</p></article>
+          <article><span>⌖</span><h3>Great Location</h3><p>Easy access to key destinations and landmarks.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse rooms at Rexona Hotel & Suite">
+  <title>Rexona Hotel & Suite | Rooms</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/styles.css"><link rel="stylesheet" href="/src/css/rooms.css"><link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+<body data-page="rooms">
+<header id="site-header"></header>
+<main>
+  <section class="page-banner"><div class="container"><p class="eyebrow">REXONA ACCOMMODATION</p><h1>Choose your room</h1><p>Compare room types, prices and amenities before you book.</p></div></section>
+  <section class="container section">
+    <form id="room-search-form" class="filter-panel">
+      <label>Check-in<input id="search-checkin" type="date"></label>
+      <label>Check-out<input id="search-checkout" type="date"></label>
+      <label>Guests<input id="search-guests" type="number" min="1" max="8" value="2"></label>
+      <label>Type<select id="search-type"><option value="all">All types</option><option>Standard</option><option>Deluxe</option><option>Executive</option><option>Suite</option></select></label>
+      <label>Sort<select id="sort-rooms"><option value="recommended">Recommended</option><option value="price-asc">Price: Low to High</option><option value="price-desc">Price: High to Low</option><option value="guests-desc">Guest Capacity</option></select></label>
+      <button class="btn btn-primary" type="submit">Apply</button>
+    </form>
+    <div class="results-bar"><strong id="room-count">0 rooms</strong><span id="room-search-message"></span></div>
+    <div id="rooms-list" class="room-grid"></div>
+  </section>
+</main>
+<footer id="site-footer"></footer>
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

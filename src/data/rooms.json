@@ -1,0 +1,72 @@
+[
+  {
+    "id": "RM001",
+    "name": "Classic Standard Room",
+    "type": "Standard",
+    "pricePerNight": 85000,
+    "maxGuests": 2,
+    "beds": 1,
+    "bedType": "Queen Bed",
+    "size": "28 m²",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80",
+    "amenities": ["Wi-Fi", "Smart TV", "Air Conditioning", "Private Bathroom"],
+    "description": "A comfortable room designed for short business trips, couples and individual travelers."
+  },
+  {
+    "id": "RM002",
+    "name": "Deluxe Executive Room",
+    "type": "Deluxe",
+    "pricePerNight": 125000,
+    "maxGuests": 3,
+    "beds": 1,
+    "bedType": "King Bed",
+    "size": "38 m²",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80",
+    "amenities": ["Wi-Fi", "Smart TV", "Air Conditioning", "Breakfast", "Work Desk", "Private Bathroom"],
+    "description": "A spacious and elegant room with extra comfort for business and leisure travelers."
+  },
+  {
+    "id": "RM003",
+    "name": "Executive Business Suite",
+    "type": "Executive",
+    "pricePerNight": 175000,
+    "maxGuests": 3,
+    "beds": 1,
+    "bedType": "King Bed",
+    "size": "52 m²",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1000&q=80",
+    "amenities": ["Wi-Fi", "Smart TV", "Air Conditioning", "Breakfast", "Living Area", "Work Desk", "Mini Bar"],
+    "description": "A refined suite with a dedicated living area, premium amenities and a sophisticated business-friendly layout."
+  },
+  {
+    "id": "RM004",
+    "name": "Rexona Luxury Suite",
+    "type": "Suite",
+    "pricePerNight": 250000,
+    "maxGuests": 4,
+    "beds": 2,
+    "bedType": "King + Sofa Bed",
+    "size": "75 m²",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80",
+    "amenities": ["Wi-Fi", "Smart TV", "Air Conditioning", "Breakfast", "Living Room", "Bathtub", "Mini Bar", "Room Service"],
+    "description": "Our signature suite offers generous space, premium furnishings and an elevated luxury experience."
+  },
+  {
+    "id": "RM005",
+    "name": "Family Comfort Room",
+    "type": "Deluxe",
+    "pricePerNight": 145000,
+    "maxGuests": 4,
+    "beds": 2,
+    "bedType": "2 Queen Beds",
+    "size": "48 m²",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1000&q=80",
+    "amenities": ["Wi-Fi", "Smart TV", "Air Conditioning", "Breakfast", "Private Bathroom", "Mini Fridge"],
+    "description": "A practical and comfortable choice for families and small groups traveling together."
+  }
+]
