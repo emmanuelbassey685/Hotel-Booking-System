@@ -46,9 +46,9 @@ function renderFooter() {
     <div class="container footer-grid">
       <div><h3>REXONA HOTEL & SUITE</h3><p>Luxury accommodation with simple, convenient booking.</p></div>
       <div><h4>Quick Links</h4><a href="rooms.html">Rooms</a><a href="bookings.html">My Bookings</a><a href="location.html">Location</a></div>
-      <div><h4>Contact</h4><p>15 Rexona Avenue, Uyo, Akwa Ibom</p><p>+234 800 000 0000</p></div>
+      <div><h4>Contact</h4><p>15 Rexona Avenue, Uyo, Akwa Ibom</p><p>+234 80 3779 6941</p></div>
     </div>
-    <div class="footer-bottom">© ${new Date().getFullYear()} Rexona Hotel & Suite. Academic/project prototype.</div>
+    <div class="footer-bottom">© ${new Date().getFullYear()} Rexona Hotel & Suite. Academic/project prototype of Bassey, Emmanuel.</div>
   `;
 }
 
