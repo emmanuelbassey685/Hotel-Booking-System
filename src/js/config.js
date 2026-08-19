@@ -22,5 +22,6 @@ export const APP_CONFIG = {
   payment: {
     provider: "demo",
     paystackPublicKey: ""
+    
   }
 };
