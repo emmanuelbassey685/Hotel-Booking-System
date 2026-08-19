@@ -41,14 +41,93 @@ function renderHeader() {
 
 function renderFooter() {
   const footer = document.querySelector("#site-footer");
+
   if (!footer) return;
+
   footer.innerHTML = `
     <div class="container footer-grid">
-      <div><h3>REXONA HOTEL & SUITE</h3><p>Luxury accommodation with simple, convenient booking.</p></div>
-      <div><h4>Quick Links</h4><a href="rooms.html">Rooms</a><a href="bookings.html">My Bookings</a><a href="location.html">Location</a></div>
-      <div><h4>Contact</h4><p>15 Rexona Avenue, Uyo, Akwa Ibom</p><p>+234 80 3779 6941</p></div>
+
+      <!-- BRAND -->
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html">
+          <span class="brand-mark">R</span>
+
+          <span>
+            REXONA
+            <small>HOTEL & SUITE</small>
+          </span>
+        </a>
+
+        <p>
+          Experience luxury, comfort and unforgettable stays
+          at Rexona Hotel & Suite.
+        </p>
+
+        <p class="footer-tagline">
+          Your comfort. Our priority.
+        </p>
+      </div>
+      <!-- QUICK LINKS -->
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="bookings.html">My Bookings</a>
+        <a href="location.html">Location</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+
+
+      <!-- HOTEL INFORMATION -->
+      <div class="footer-column">
+        <h4>Hotel Information</h4>
+
+        <a href="rooms.html">Our Rooms</a>
+        <a href="index.html#facilities">Facilities</a>
+        <a href="location.html">Find Us</a>
+        <a href="index.html#contact">Contact Us</a>
+      </div>
+
+
+      <!-- CONTACT -->
+      <div class="footer-column footer-contact">
+        <h4>Contact Us</h4>
+
+        <p>
+          📍 15 Rexona Avenue,<br>
+          Uyo, Akwa Ibom State,<br>
+          Nigeria
+        </p>
+
+        <a href="tel:+2348037796941">
+          📞 +234 803 779 6941
+        </a>
+
+        <a href="mailto:info@rexonahotel.com">
+          ✉️ info@rexonahotel.com
+        </a>
+      </div>
+
     </div>
-    <div class="footer-bottom">© ${new Date().getFullYear()} Rexona Hotel & Suite. Academic/project prototype of Bassey, Emmanuel.</div>
+
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+
+        <p>
+          © ${new Date().getFullYear()}
+          Rexona Hotel & Suite.
+          All Rights Reserved.
+        </p>
+
+        <p>
+          Academic Project by Bassey, Emmanuel
+        </p>
+
+      </div>
+    </div>
   `;
 }
 

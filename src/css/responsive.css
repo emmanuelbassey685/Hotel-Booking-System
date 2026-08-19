@@ -29,3 +29,21 @@
   .location-layout { gap: 10px; }
   .map-container, .map-container iframe { min-height: 380px; }
 }
+
+@media (max-width: 768px) {
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
